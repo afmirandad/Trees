@@ -48,6 +48,22 @@ Si usas MSVC (Developer Command Prompt), el comando sería diferente; aquí usam
 
 El programa insertará las claves: 50, 30, 70, 20, 40, 60, 80. Se deberían imprimir los recorridos y el resultado de búsquedas (por ejemplo 60 encontrado, 25 no encontrado).
 
+## Mini gráfica (representación del árbol)
+
+La siguiente es una representación ASCII del árbol binario resultante tras insertar las claves de ejemplo en ese orden:
+
+```text
+            50
+          /  \
+       30    70
+      /  \  /  \
+   20  40 60  80
+```
+
+Notas:
+- Las ramas muestran la relación padre -> hijo izquierdo/derecho.
+- En un BST (árbol binario de búsqueda) las claves menores que la raíz están a la izquierda; las mayores o iguales, a la derecha.
+
 ## Siguientes pasos (opcional)
 
 - Añadir eliminación de un nodo (delete) con sus tres casos.
